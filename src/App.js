@@ -121,7 +121,7 @@ class Contact extends Component {
       display: this.props.hidden ? "none" : "flex",
     };
     return (
-      <div className="container" style={style}>
+      <div className="portal" style={style}>
         Phase Three:
         <br />
         <br /> <p className="percent"> 11.01.2020</p>

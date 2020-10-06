@@ -59,13 +59,30 @@ html {
   animation-play-state: running;
 }
 
+.portal {
+  min-height: 200px;
+  text-shadow: 0 0 3px black, 0 0 15px black;
+  padding: 13px;
+  background-image: url(./assets/portal.jpg);
+  background-size: cover;
+  background-position-y: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8%;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+  font-size: 33px;
+  font-family: anc;
+  border: 2px outset lightskyblue;
+  border-radius: 11px;
+  cursor: default;
+}
+
 @keyframes seas {
-
-
   50% {
     border-radius: 13%;
   }
-
 }
 
 .container p {
